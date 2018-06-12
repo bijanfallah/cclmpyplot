@@ -23,4 +23,9 @@ An automated python plotting tool for [COSMO-CLM](https://www.clm-community.eu/)
   ncks -A -v rlat,rlon T_2M_ts.nc T_2M_mm.nc 
   ```
   (the correct lat, lon values are appended from a file that includes these variables). Here we assume that the T_2M_ts.nc contains rlat and rlon values.
-
+ ## packages
+ 
+ - cartopy 
+ - netcdf-bin
+ - NETCDF4
+ 

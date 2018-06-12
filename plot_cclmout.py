@@ -17,8 +17,8 @@ import os
 import matplotlib.image as image
 
 
-dir_target = raw_input("\033[0;30;43m Enter the path to the data please (with / at the end)! : ")
-file_name = raw_input("\033[0;30;43m Enter the name of the netcdf file please! : ")
+dir_target = input(" Enter the path to the data please (with / at the end)! : ")
+file_name = input(" Enter the name of the netcdf file please! : ")
 
 
 file_name = dir_target +file_name
@@ -38,7 +38,7 @@ for name, dimension in nc.variables.items():
     
 print("\033[0;30;47m Here the list of variables within the netcdf file: \n")
 print(var_names)
-var = raw_input("\033[0;30;43m Enter your variable name to be plotted:\n") 
+var = input(" Enter your variable name to be plotted:\n") 
 t = nc.variables[var][:,:].squeeze()
 def extract_poles(name):
     '''
@@ -65,18 +65,18 @@ def extract_poles(name):
 
     return pol_lon, pol_lat
 
-color_bars = raw_input("\033[0;30;43m Enter the colorbar format (blue to green [BuGn] or blue_white_red [bwr_r] or any other python colorbar): ")
+color_bars = input(" Enter the colorbar format (blue to green [BuGn] or blue_white_red [bwr_r] or any other python colorbar): ")
 
 #color_bars = "plt.cm." + color_bars
 print(color_bars)
 pol_lon, pol_lat = extract_poles(file_name)
 if len(t.shape)>2 and t.shape[0]> 1:
     print('The variable has more than 1 level/time')
-    answer = raw_input('Shall I make a mean of all (yes or no)?')
+    answer = input('Shall I make a mean of all (yes or no)?')
     if answer == 'yes':
         t = np.mean(t, axis=0)
     else:
-        answer = raw_input('Shall I plot an specific level/time (1..'+ str(t.shape[0]) +")")
+        answer = input('Shall I plot an specific level/time (1..'+ str(t.shape[0]) +")")
         t = t[int(answer),:,:].squeeze()   
         
 fig = plt.figure('1')
