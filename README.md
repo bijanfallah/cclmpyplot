@@ -30,5 +30,5 @@ An automated python plotting tool for [COSMO-CLM](https://www.clm-community.eu/)
  - NETCDF4
  ## test case: 
  
-[![Watch the video](http://users.met.fu-berlin.de/~BijanFallah/rain_bijan.png)](https://youtu.be/RfOZD68FwXs)
+[![Watch the video](http://users.met.fu-berlin.de/~BijanFallah/video.png)](https://youtu.be/RfOZD68FwXs)
 
