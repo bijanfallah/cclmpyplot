@@ -1,4 +1,15 @@
-# cclmpyplot
+<div align="center">
+  <img src="https://www.tensorflow.org/images/tf_logo_transp.png"><br><br>
+</div>
+
+-----------------
+
+**cclmpyplot**
+
+by @bijan_berlin :+1:
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 An automated python plotting tool for COSMO-CLM regional climate model netcdf format outputs in curvilinear grid. 
 - the program assumes that the netcdf files contain rotated grids (rlon, rlat) 
 - if they do not contain such informations you could use nco to write these informations from another file: 
