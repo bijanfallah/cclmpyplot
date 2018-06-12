@@ -32,5 +32,8 @@ An automated python plotting tool for [COSMO-CLM](https://www.clm-community.eu/)
  
  
  
-[![Watch the video](http://users.met.fu-berlin.de/~BijanFallah/video.png)](https://youtu.be/RfOZD68FwXs)
 
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=RfOZD68FwXs
+" target="_blank"><img src="http://img.youtube.com/vi/RfOZD68FwXs/0.jpg" 
+alt="cclm python plot" width="240" height="180" border="10" /></a>
