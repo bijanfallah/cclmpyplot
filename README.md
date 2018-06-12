@@ -28,7 +28,7 @@ An automated python plotting tool for [COSMO-CLM](https://www.clm-community.eu/)
  - cartopy 
  - netcdf-bin
  - NETCDF4
- ## test case: 
+ ## test case video : 
  
 [![Watch the video](http://users.met.fu-berlin.de/~BijanFallah/video.png)](https://youtu.be/RfOZD68FwXs)
 
