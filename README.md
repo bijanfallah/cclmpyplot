@@ -14,5 +14,5 @@ An automated python plotting tool for COSMO-CLM regional climate model netcdf fo
   ```bash 
   ncks -A -v lat,lon T_2M_ts.nc T_2M_mm.nc 
   ```
-  (the correct lat, lonvalues are appended from a file that includes these variables)
+  (the correct lat, lon values are appended from a file that includes these variables)
 
