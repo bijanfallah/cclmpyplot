@@ -5,14 +5,14 @@ An automated python plotting tool for COSMO-CLM regional climate model netcdf fo
 - To make coordinates correct again do for example: 
 
   ```shell
-  ncatted –h -a coordinates,T_2M,c,c,"lon lat" T_2M_mm.nc
+  ncatted –h -a coordinates,T_2M,c,c,"rlon rlat" T_2M_mm.nc
 
   ```
   (the coordinates attribute is created) 
   and 
   
   ```bash 
-  ncks -A -v lat,lon T_2M_ts.nc T_2M_mm.nc 
+  ncks -A -v rlat,rlon T_2M_ts.nc T_2M_mm.nc 
   ```
-  (the correct lat, lon values are appended from a file that includes these variables)
+  (the correct lat, lon values are appended from a file that includes these variables). Here we assume that the T_2M_ts.nc contains rlat and rlon values.
 
