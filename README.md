@@ -4,11 +4,8 @@
 
 -----------------
 
-**cclmpyplot**
+**CclmPyPlot**
 
-by @bijan_berlin :+1:
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
 
 An automated python plotting tool for COSMO-CLM regional climate model netcdf format outputs in curvilinear grid. 
 - the program assumes that the netcdf files contain rotated grids (rlon, rlat) 
