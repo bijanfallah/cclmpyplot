@@ -36,7 +36,7 @@ var_names = []
 for name, dimension in nc.variables.items():
     var_names.append(str(name))
     
-print("\033[0;30;47m Here the list of variables within the netcdf file: \n")
+print(" Here the list of variables within the netcdf file: \n")
 print(var_names)
 var = input(" Enter your variable name to be plotted:\n") 
 t = nc.variables[var][:,:].squeeze()
