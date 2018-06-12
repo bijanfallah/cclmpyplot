@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/bijanfallah/cclmpyplot/edit/master/rain_bijan.png"><br><br>
+  <img src="http://users.met.fu-berlin.de/~BijanFallah/rain_bijan.png"><br><br>
 </div>
 
 -----------------
